@@ -1,0 +1,228 @@
+@media (max-width: 1030px) {
+	/*------------------------------------------------------*/
+	/*--------для шапки и чуть чуть для main (ниже)---------*/
+	/*------------------------------------------------------*/
+	header{
+		margin: 0 auto;
+		flex-wrap:wrap;
+		padding:0vmax 10px;
+	}
+	.header_text{
+		width:100%
+	}
+	.logo{
+		margin:0 auto;
+	}
+
+	/*------------------------------------------------------*/
+	/*------------------------для main-------------------*/
+	/*------------------------------------------------------*/
+	.good{
+		width:50%;
+		height:auto;
+		margin:0;
+		padding:0;
+		vertical-align:middle;
+	}
+	.one_good{
+		width:50%;
+	}
+}
+@media (max-width: 700px) {
+	/*------------------------------------------------------*/
+	/*--------для шапки и для корзины внизу фиксированной---*/
+	/*------------------------------------------------------*/
+	.nav_menu ul{
+		display:none;
+	}
+	.nav_menu_box{
+		display:block;
+	}
+	.right_menu .basket{
+		display:none;
+	}
+	.cataloge{
+		display:block;
+		margin:auto 4px;
+		text-decoration:none;
+		color:gray;
+	}
+	.nav_menu_box_ou{
+		display:flex;
+		width:85%;
+	}
+	.right_menu{
+		width:15%;
+	}
+
+	.footer_panel{
+		display:flex;
+	}
+	header{
+		position:relative;
+	}
+	/*------------------------------------------------------*/
+	/*------------------------для подвала-------------------*/
+	/*------------------------------------------------------*/
+	.footer_text_only, .social{
+		width:100%;
+		margin:auto;
+		font-size:14px;
+	}
+
+	.footer_text_only, .social{
+		width:100%;
+		margin:auto;
+	}
+	.social{
+		text-align:center;
+		padding-top:30px;
+	}
+	/*------------------------------------------------------*/
+	/*------------------------для main-------------------*/
+	/*------------------------------------------------------*/
+	.btn_sub{
+		background:black;
+		height:56px;
+		width:100%;
+		margin:10px auto;
+		min-width:200px;
+	}
+	.edittext{
+		height:56px;
+		width:100%;
+		padding-right:0;
+		margin:1px auto;
+
+	}
+	.edittext input{
+		height:56px;
+		width:100%;
+	}
+	.good span{
+		position:absolute;
+		text-decoration:none;
+		color:black;
+		background:white;
+		padding:15px 20px;
+		margin-top:20px;
+		margin-left:10px;
+		font-size:13px;
+	}
+
+}
+
+@media (max-width: 770px) {
+    .all_goods{
+		width:95%;
+		margin:0 auto;
+	}
+	.one_good{
+		width:50%;
+		min-width:255px;
+		margin:0 auto;
+	}
+	.container_img img{
+		width:50%;
+		min-width:255px;
+		text-align:center;
+	}
+	.filter{
+		display:none;
+	}
+	.header2{
+		display:flex;
+	}
+}
+
+
+@media (max-width: 376px) {
+	/*------------------------------------------------------*/
+	/*------------------------для подвала-------------------*/
+	/*------------------------------------------------------*/
+	.footer_text_only, .social{
+		width:100%;
+		margin:auto;
+		font-size:12px;
+	}
+	.for_byers span, .footer_info span{
+		font-size:14px;
+	}
+
+	.confidentiality{
+		font-size:12px;
+	}
+	.sort_by_box label, .filter_min_box label{
+		font-size:14px;
+	}
+
+
+	/*------------------------------------------------------*/
+	/*------------------------для main-------------------*/
+	/*------------------------------------------------------*/
+	.good span{
+		position:absolute;
+		text-decoration:none;
+		color:black;
+		background:white;
+		padding:5px 10px;
+		margin-top:10px;
+		margin-left:5px;
+		font-size:10px;
+		max-width:70%;
+	}
+
+}
+
+@media (max-width:420px) {
+	/*------------------------------------------------------*/
+	/*------------------------для main-------------------*/
+	/*------------------------------------------------------*/
+
+	.descr_container span{
+		display:block;
+		padding-bottom:20px;
+		padding-top:30px;
+		font-weight:bold;
+		font-size:17px;
+		text-align:center;
+	}
+
+	.good span{
+		position:absolute;
+		text-decoration:none;
+		color:black;
+		background:white;
+		padding:10px 15px;
+		margin-top:10px;
+		margin-left:5px;
+		font-size:10px;
+		max-width:70%;
+	}
+
+	.box{
+		display:block;
+	}
+	.box_in img{
+		display:block;
+		text-align:center;
+		margin:auto;
+	}
+}
+@media (max-width:580px) {
+.one_good{
+	width:100%;
+	min-width:300px;
+}
+	.container_img img{
+		width:100%;
+		min-width:300px;
+		text-align:center;
+	}
+
+	.all_goods{
+		width:100%;
+	}
+}
+
+
